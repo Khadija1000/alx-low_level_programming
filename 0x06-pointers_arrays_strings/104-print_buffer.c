@@ -1,5 +1,5 @@
 #include "main.h"
-#include <sdtio.h>
+#include <stdio.h>
 
 /**
  * print_buffer - function that prints a buffer.
@@ -14,7 +14,7 @@ void print_buffer(char *b, int size)
 
 	o = 0;
 
-	if (siz <= 0)
+	if (size <= 0)
 	{
 		printf("\n");
 		return;
@@ -42,7 +42,7 @@ void print_buffer(char *b, int size)
 			{
 				C = '.';
 			}
-			printf("%C", C);
+			printf("%c", C);
 		}
 		printf("\n");
 		o += 10;
