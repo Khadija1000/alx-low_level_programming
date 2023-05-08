@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
 			free(AB);
 			exit(99);
 		}
-		
+
 		AR = read(AF, AB, 1024);
 		AT = open(argv[2], O_WRONLY | O_APPEND);
 
