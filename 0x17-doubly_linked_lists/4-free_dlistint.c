@@ -2,8 +2,9 @@
 #include "lists.h"
 
 /**
- * free_dlistint_t - frees a doubly linked list
+ * free_dlistint - frees a doubly linked list
  * @head: dlistint_t list to be freed
+ * Return: void.
  */
 void free_dlistint(dlistint_t *head)
 {
